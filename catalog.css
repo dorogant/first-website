@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    margin: 30px; 
+    padding: 30px;
+    padding-right: 90px;
+}
+
+.PSgames {
+
+    width: 165px;
+
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    height: 60px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    /* background-image: url("font.png"); */
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
