@@ -7,40 +7,17 @@ body {
     position: relative;
 }
 
-table {
-    width: 99.6%;
-    margin: 1px; 
-    padding: 180px;
+.container {
+    margin: 100px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
-
-
-td, th {
-    text-align: center;
-    height: 70px;
-}
-
-a {
-    color: rgb(0, 0, 0);
-    font-family: 'Dosis', sans-serif;
-    text-decoration: none;
-}
-
-h1 {
-    color: rgb(11, 59, 202);
-    font-family: 'Dosis', sans-serif;
-    font-size: 30px;
-}
-
-#logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: auto;
-    padding-bottom: auto;
-    height: 60px;
-    border-radius: 8px;
-    
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .item_image {
@@ -57,25 +34,41 @@ footer {
     bottom: 0;
 }
 
+h1 {
+    color: rgb(11, 59, 202);
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
 h4 {
     font-family: 'Dosis', sans-serif;
     text-align: center;
     color: white;
 } 
 
-li {
+a {
+    color: rgb(0, 0, 0);
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+}
 
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 60px;
+    border-radius: 8px;
+    
+}
+
+li {
     color: white;
     font-family: 'Dosis', sans-serif;
     text-align: center;
-
 }
-
-.PSgames {
-
-    width: 165px;
-
-}
-
-
-
