@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 231, 231);
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -14,13 +14,23 @@ body {
     flex-wrap: wrap;
 }
 
-.item {
+.item { 
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    border-width: auto;
     flex: 1 16%;
-    padding: 2%;
+    padding: 1%;
+    margin: 1%;
+
 }
 
 .image .item_image {
-    max-width: 100%;
+
+    width: 100%;
+}
+.item:hover {
+    box-shadow: 0 0 2px 2px rgb(119, 0, 255, 3)
 }
 
 .title {
@@ -60,11 +70,16 @@ a {
 }
 
 #logo {
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 60px;
     border-radius: 8px;
+}
+
+#logo:hover{
+    box-shadow: 0 0 2px 2px cornflowerblue;
 }
 
 li {
@@ -73,14 +88,3 @@ li {
     text-align: center;
 }
 
-@media (max-width: 920px) {
-    .item {
-        flex: 1 21%;
-    }
-}
-
-@media (max-width: 560px) {
-    .item {
-        flex: 1 calc(100% / 3 - 4%);
-    }
-}

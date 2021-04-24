@@ -24,11 +24,11 @@ window.onload = function () {
         "image_url": "images/Witcher3.png"
     },
     {
-        "name": "GrandTheftAuto 5",
+        "name": "GTA 5",
         "image_url": "images/GTA5.jpg"
     },
     {
-        "name": "RedDeadRedemption 2",
+        "name": "RDR 2",
         "image_url": "images/RDR2.png"
     },
     {
@@ -36,7 +36,7 @@ window.onload = function () {
         "image_url": "images/SpiderMan2.png"
     },
     {
-        "name": "Star Wars:Battlefront 2",
+        "name": "Battlefront 2",
         "image_url": "images/battlefront22.jpg"
     },
     {
@@ -64,7 +64,7 @@ window.onload = function () {
         "image_url": "images/TLOU2.jpg"
     },
     {
-        "name": "CALL OF DUTY: COLD WAR",
+        "name": "COD: COLD WAR",
         "image_url": "images/CALLOFDUTYCOLDWAR.png"
     },
     {
@@ -84,20 +84,8 @@ window.onload = function () {
         "image_url": "images/Cyberpunk2077.png"
     },
     {
-        "name": "",
-        "image_url": ""
-    },
-    {
-        "name": "",
-        "image_url": ""
-    },
-    {
-        "name": "",
-        "image_url": ""
-    },
-    {
-        "name": "",
-        "image_url": ""
+        "name": "Uncharted 4",
+        "image_url": "images/uncharted4.png"
     },
     ]
 
@@ -122,7 +110,6 @@ window.onload = function () {
     });
 
     //console.log(items);
-
     var gamesContainer = document.getElementById("gamesContainer");
     items.forEach(item => {
         gamesContainer.appendChild(item);

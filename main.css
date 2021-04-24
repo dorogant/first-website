@@ -5,6 +5,7 @@ body {
     background-size: cover;
     height: 100vh;
     position: relative;
+    margin: 0px;
 }
 
 .container {
@@ -15,15 +16,28 @@ body {
 }
 
 .group {
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.item {
+
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+
+}
+
 .item_image {
+    margin: -1px;
     border-radius: 10px;
     width: 170px;
     height: 170px;
+}
+.item:hover{
+    box-shadow: 0 0 2px 2px rgb(99, 103, 109);
 }
 
 footer {
@@ -60,7 +74,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: auto;
+    margin-top: 7px;
     padding-bottom: auto;
     height: 60px;
     border-radius: 8px;
